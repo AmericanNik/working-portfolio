@@ -1,0 +1,336 @@
+/*
+Font Families
+
+
+
+List of classes*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: #555;
+  margin: 0 0 100px;
+}
+
+/* Headings Section */
+/*Nav section */
+
+.navBackground{
+  background-color: #343a40;
+  padding:0 0 0 0;
+}
+
+.navContainer{
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  max-width: 1140px;
+}
+
+.newNav {
+  background-color: coral;
+  color: #fff;
+}
+
+.newNavBar {
+  background-color: #343a40;
+  color: #fff;
+  height: 36px;
+}
+
+.newNavBar ul {
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+.newNavBar li {
+  display: inline;
+}
+
+.newNavBar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  padding-right: 15px;
+}
+
+.newNavBar a:hover {
+  font-weight: bold;
+}
+
+.mainHeaderDiv a{
+  color:#fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight:400px;
+  color:#fff;
+  font-weight:bold;
+}
+
+.main-header{
+  position:absolute;
+  background-color:coral;
+  padding:0px;
+  top:0;
+
+  ;
+}
+
+.mainHeaderDiv a{
+  text-decoration: none;
+  color:#fff;
+  font-size:24px;
+  font-weight:bold;
+}
+
+.main-header a:hover{
+  font-weight:900;
+}
+
+
+.newNav a:hover{
+  font-weight:900;
+}
+
+/* grid system */
+.my-container {
+  border: 3px solid #333;
+  margin-top: 30px;
+  background-color: #eee;
+  padding: 20px;
+  width: 80%;
+  max-width: 1140px;
+  text-overflow: clip;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-col {
+    position: relative;
+  padding-left: 0;
+}
+
+/* Title Section */
+.proPic {
+  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+/* Footer SectionA */
+.footer {
+  position: absolute;
+  margin-top: 1px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #343a40;
+}
+
+/* Portfolio Section */
+.portfolioPic {
+  ;
+  height: 200px;
+  width: 200px;
+}
+
+h6.portfolio-image-text {
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  width: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 0;
+}
+
+h5.portfolio-image-text{
+  font-size: 1.2rem;
+  margin-top: 10px;
+  text-align: center;
+  width:200px;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff
+}
+
+h5.portfolio-image-text:hover{
+  cursor: pointer;
+transform: translateY(-0.1rem);
+transition: transform 150ms;
+}
+
+.portfolioContainer {
+  padding: 30px;
+}
+
+.connect{
+  text-align: center;
+}
+
+.linkedInIcon{
+  color:#0077B5;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.githubIcon{
+  color:#333;
+}
+
+.main-Header:hover{
+  cursor: pointer;
+transform: translateY(-0.1rem);
+transition: transform 150ms;
+}
+
+.githubIcon:hover{
+  cursor: pointer;
+transform: translateY(-0.1rem);
+transition: transform 150ms;
+}
+
+.linkedInIcon:hover{
+  cursor: pointer;
+transform: translateY(-0.1rem);
+transition: transform 150ms;
+}
+.portBox2 {
+  margin: 25px;
+}
+
+.deployLink:hover{
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.portfolioPic:hover{
+  cursor: pointer;
+transform: translateY(-0.1rem);
+transition: transform 150ms;
+}
+
+.portfoliioPic {
+  height: 200px;
+  width: 200px;
+}
+
+.portfolioImageBox {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+
+  position: relative;
+}
+
+/* Contact Section */
+
+
+.contactInput {
+  display: inline-grid;
+}
+
+.contactInfo input {
+  display: inline;
+}
+
+.contactLabel {
+  width: 49.7%;
+  margin-bottom: 10px;
+}
+
+@media (max-width:1800px){
+  body{
+    background-color: firebrick;
+  }
+}
+
+@media(max-width:1300px){
+  body{
+    background-color: mediumOrchid;
+  }
+}
+
+@media (max-width:980px){
+
+  body{
+    background-color:lightblue;
+  }
+
+  .title-section{
+    width:680px;
+    margin-right:auto;
+  }
+
+}
+@media (max-width:768px){
+
+  body{
+    background-color:lightpink;
+  }
+
+.title-section{
+  text-align:left;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+}
+
+
+
+
+@media (max-width:640px){
+
+  body {
+    background-color:lightgreen;
+  }
+
+  div .main-header{
+    position:static;
+    width:100%;
+    height:35px;
+    padding:0;
+    top:0;
+  }
+
+  div .mainHeaderDiv{
+    width:100%;
+    background:coral;
+    height:35px;
+    text-align: center;
+    margin-top:0px;
+    padding-top:5px;
+
+  }
+
+  div .mainHeaderDiv a{
+    font-size:18px;
+  }
+
+  div .navBackground{
+    height: 30px;
+    position:relative;
+    height:auto;
+  }
+
+  .newNavBar ul{
+    text-align:center;
+  }
+
+.title-section{
+  max-width:90%;
+  text-align: center;
+}
+
+}
